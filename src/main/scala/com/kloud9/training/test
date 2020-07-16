@@ -1,0 +1,7 @@
+1 object program -->
+1)topic and call kafka read method or hive call method
+2) call write program kafka / hive
+
+reader program --> kafka method  and hive method
+transformation program ( df-->data cleansing )
+write program --> ( kakfa topic and hive table )

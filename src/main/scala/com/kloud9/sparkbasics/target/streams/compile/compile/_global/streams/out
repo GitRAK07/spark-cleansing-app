@@ -1,0 +1,151 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes.scala:2:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.{Row, SparkSession}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes.scala:3:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.types._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes.scala:8:15: not found: value SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m  val spark = SparkSession.builder()[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes.scala:27:18: not found: value LongType[0m
+[0m[[0m[31merror[0m] [0m[0m  val longType = LongType[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes.scala:30:20: not found: value StructType[0m
+[0m[[0m[31merror[0m] [0m[0m  val carsSchema = StructType(Array([0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes.scala:31:5: not found: value StructField[0m
+[0m[[0m[31merror[0m] [0m[0m    StructField("Name", IntegerType),[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes.scala:31:25: not found: value IntegerType[0m
+[0m[[0m[31merror[0m] [0m[0m    StructField("Name", IntegerType),[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes.scala:32:5: not found: value StructField[0m
+[0m[[0m[31merror[0m] [0m[0m    StructField("Miles_per_Gallon", DoubleType),[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes.scala:32:37: not found: value DoubleType[0m
+[0m[[0m[31merror[0m] [0m[0m    StructField("Miles_per_Gallon", DoubleType),[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes.scala:33:5: not found: value StructField[0m
+[0m[[0m[31merror[0m] [0m[0m    StructField("Cylinders", LongType),[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes.scala:33:30: not found: value LongType[0m
+[0m[[0m[31merror[0m] [0m[0m    StructField("Cylinders", LongType),[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes.scala:34:5: not found: value StructField[0m
+[0m[[0m[31merror[0m] [0m[0m    StructField("Displacement", DoubleType),[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes.scala:34:33: not found: value DoubleType[0m
+[0m[[0m[31merror[0m] [0m[0m    StructField("Displacement", DoubleType),[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes.scala:35:5: not found: value StructField[0m
+[0m[[0m[31merror[0m] [0m[0m    StructField("Horsepower", LongType),[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes.scala:35:31: not found: value LongType[0m
+[0m[[0m[31merror[0m] [0m[0m    StructField("Horsepower", LongType),[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes.scala:36:5: not found: value StructField[0m
+[0m[[0m[31merror[0m] [0m[0m    StructField("Weight_in_lbs", LongType),[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes.scala:36:34: not found: value LongType[0m
+[0m[[0m[31merror[0m] [0m[0m    StructField("Weight_in_lbs", LongType),[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes.scala:37:5: not found: value StructField[0m
+[0m[[0m[31merror[0m] [0m[0m    StructField("Acceleration", DoubleType),[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes.scala:37:33: not found: value DoubleType[0m
+[0m[[0m[31merror[0m] [0m[0m    StructField("Acceleration", DoubleType),[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes.scala:38:5: not found: value StructField[0m
+[0m[[0m[31merror[0m] [0m[0m    StructField("Year", StringType),[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes.scala:38:25: not found: value StringType[0m
+[0m[[0m[31merror[0m] [0m[0m    StructField("Year", StringType),[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes.scala:39:5: not found: value StructField[0m
+[0m[[0m[31merror[0m] [0m[0m    StructField("Origin", StringType)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes.scala:39:27: not found: value StringType[0m
+[0m[[0m[31merror[0m] [0m[0m    StructField("Origin", StringType)[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes.scala:52:15: not found: value Row[0m
+[0m[[0m[31merror[0m] [0m[0m  val myRow = Row("chevrolet chevelle malibu",18,8,307,130,3504,12.0,"1970-01-01","USA")[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes.scala:73:40: value toDF is not a member of Seq[(String, Int, Int, Int, Int, Int, Double, String, String)][0m
+[0m[[0m[31merror[0m] [0m[0m  val manualCarsDFWithImplicits = cars.toDF("Name", "MPG", "Cylinders", "Displacement", "HP", "Weight", "Acceleration", "Year", "CountryOrigin")[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes.scala:96:35: value toDF is not a member of Seq[(String, String, String, Int)][0m
+[0m[[0m[31merror[0m] [0m[0m  val smartphonesDF = smartphones.toDF("Make", "Model", "Platform", "CameraMegapixels")[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes2.scala:2:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.log4j.{Level, Logger}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes2.scala:4:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes2.scala:5:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.types.{DoubleType, IntegerType, LongType, StringType, StructField, StructType}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes2.scala:11:3: not found: value Logger[0m
+[0m[[0m[31merror[0m] [0m[0m  Logger.getLogger("org").setLevel(Level.ERROR)[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes2.scala:11:36: not found: value Level[0m
+[0m[[0m[31merror[0m] [0m[0m  Logger.getLogger("org").setLevel(Level.ERROR)[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes2.scala:12:14: not found: type SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m  val spark: SparkSession = SparkSession.builder()[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes2.scala:12:29: not found: value SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m  val spark: SparkSession = SparkSession.builder()[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes2.scala:33:16: not found: value StructType[0m
+[0m[[0m[31merror[0m] [0m[0m  val Schema = StructType(Array([0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes2.scala:34:5: not found: value StructField[0m
+[0m[[0m[31merror[0m] [0m[0m    StructField("id", IntegerType ),[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes2.scala:34:23: not found: value IntegerType[0m
+[0m[[0m[31merror[0m] [0m[0m    StructField("id", IntegerType ),[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes2.scala:35:5: not found: value StructField[0m
+[0m[[0m[31merror[0m] [0m[0m    StructField("Name", StringType),[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes2.scala:35:25: not found: value StringType[0m
+[0m[[0m[31merror[0m] [0m[0m    StructField("Name", StringType),[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes2.scala:36:5: not found: value StructField[0m
+[0m[[0m[31merror[0m] [0m[0m    StructField("Age", IntegerType),[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes2.scala:36:24: not found: value IntegerType[0m
+[0m[[0m[31merror[0m] [0m[0m    StructField("Age", IntegerType),[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes2.scala:37:5: not found: value StructField[0m
+[0m[[0m[31merror[0m] [0m[0m    StructField("Friends", IntegerType)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/dataframes2.scala:37:28: not found: value IntegerType[0m
+[0m[[0m[31merror[0m] [0m[0m    StructField("Friends", IntegerType)[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/rddplay.scala:2:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.log4j.{Level, Logger}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/rddplay.scala:3:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.SparkContext[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/rddplay.scala:4:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.SparkConf[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/rddplay.scala:7:3: not found: value Logger[0m
+[0m[[0m[31merror[0m] [0m[0m  Logger.getLogger("org").setLevel(Level.ERROR)[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/rddplay.scala:7:36: not found: value Level[0m
+[0m[[0m[31merror[0m] [0m[0m  Logger.getLogger("org").setLevel(Level.ERROR)[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/rddplay.scala:9:18: not found: type SparkConf[0m
+[0m[[0m[31merror[0m] [0m[0m  val conf = new SparkConf().setAppName("Basics of RDDs").setMaster("local[*]")[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/rddplay.scala:10:16: not found: type SparkContext[0m
+[0m[[0m[31merror[0m] [0m[0m  val sc = new SparkContext(conf)[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anandkumar.r/IdeaProjects/my-scala-practice-project/src/main/scala/com/kloud9/sparkbasics/rddplay.scala:19:3: not found: value ----------------------------------------------------------------------------------------[0m
+[0m[[0m[31merror[0m] [0m[0m  ----------------------------------------------------------------------------------------[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m50 errors found[0m
